@@ -22,7 +22,7 @@ nav {
 }
 
 svg:hover {
-    transition: 400ms;
+    transition: 400ms ease-in-out;
     fill: #5de2bd;
 }
 
