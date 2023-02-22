@@ -1,0 +1,32 @@
+nav {
+    height: 100vh;
+    float: left;
+    display: flex;
+    flex-direction: column;
+    width: 90px;
+    background-color: #ffff;
+    box-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+.icons {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icons img, .icons svg {
+    width: 25px;
+    margin: 25px auto;
+    cursor: pointer;
+}
+
+svg:hover {
+    transition: 400ms;
+    fill: #5de2bd;
+}
+
+span {
+    display: flex;
+    flex-direction: column;
+}
