@@ -1,7 +1,10 @@
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
-import Finances from './pages/Finances';
+import Expenses from './pages/Expenses';
 import Home from './pages/Home';
+import Income from './pages/Income';
 import NoPage from './pages/NoPage';
+
+
 
 export default function AppRouter() {
     return (
@@ -9,7 +12,9 @@ export default function AppRouter() {
             <Routes>
                 <Route path='/' element={<Home />} />
                 <Route path="*" element={<NoPage />} />
-                <Route path="/expenses" element={<Finances />} />
+                <Route path="/expenses" element={<Expenses />} />
+                <Route path="/income" element={<Income />} />
+                
             </Routes>
         </Router>
     );

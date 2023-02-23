@@ -1,12 +1,16 @@
 import Dashboard from "../../components/Dashboard";
-import Navigator from "../../components/Nav";
-import "./style.css";
+import NavBar from "../../components/NavBar";
+import styled from "styled-components";
+
+const Div = styled.div`
+    display: flex;
+`
 
 export default function Home() {
   return (
-    <div>
-        <Navigator />
+    <Div>
+        <NavBar />
         <Dashboard />
-    </div>
+    </Div>
   );
 }
